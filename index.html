@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <style type="text/css">
+
+      @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+      @media only screen {
+        .column, th, td, div, p {font-family: 'Lato', Helvetica, Arial, sans-serif !important;}
+      }
+
+      a {text-decoration: none;}
+      table {border-collapse: collapse;}
+      img {border: 0; line-height: 100%; max-width: 100%; vertical-align: middle;}
+      .column, td, th, div, p {-webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; font-family: Helvetica, Arial, sans-serif; font-size: 13px; line-height: 23px; word-break: break-word;}
+
+      .wrapper {min-width: 700px;}
+      .row {margin: 0 auto; width: 700px;}
+      .row .row, th .row {width: 100%;}
+
+      .menu-item {display: inline-block;}
+      .hover-shrink:hover {transform: scale(0.7);}
+      .spacer, .divider {overflow: hidden; mso-line-height-rule: exactly;}
+
+      .video {
+        display: block !important;
+        height: auto;
+        object-fit: cover;
+      }
+
+      @media only screen and (max-width: 699px) {
+
+        .wrapper {min-width: 100% !important;}
+        .row {width: 90% !important;}
+        .row .row {width: 100% !important;}
+
+        .column {
+          box-sizing: border-box;
+          display: inline-block !important;
+          line-height: inherit !important;
+          width: 100% !important;
+          height: auto;
+        }
+
+        .mobile-1  {max-width: 8.33333%;}
+        .mobile-2  {max-width: 16.66667%;}
+        .mobile-3  {max-width: 25%;}
+        .mobile-4  {max-width: 33.33333%;}
+        .mobile-5  {max-width: 41.66667%;}
+        .mobile-6  {max-width: 50%;}
+        .mobile-7  {max-width: 58.33333%;}
+        .mobile-8  {max-width: 66.66667%;}
+        .mobile-9  {max-width: 75%;}
+        .mobile-10 {max-width: 83.33333%;}
+        .mobile-11 {max-width: 91.66667%;}
+        .mobile-12 {
+          padding-right: 30px !important;
+          padding-left: 30px !important;
+        }
+
+        .mobile-offset-1  {margin-left: 8.33333% !important;}
+        .mobile-offset-2  {margin-left: 16.66667% !important;}
+        .mobile-offset-3  {margin-left: 25% !important;}
+        .mobile-offset-4  {margin-left: 33.33333% !important;}
+        .mobile-offset-5  {margin-left: 41.66667% !important;}
+        .mobile-offset-6  {margin-left: 50% !important;}
+        .mobile-offset-7  {margin-left: 58.33333% !important;}
+        .mobile-offset-8  {margin-left: 66.66667% !important;}
+        .mobile-offset-9  {margin-left: 75% !important;}
+        .mobile-offset-10 {margin-left: 83.33333% !important;}
+        .mobile-offset-11 {margin-left: 91.66667% !important;}
+
+        .has-columns {
+          padding-right: 20px !important;
+          padding-left: 20px !important;
+        }
+
+        .has-columns .column {
+          padding-right: 10px !important;
+          padding-left: 10px !important;
+        }
+
+        .mobile-collapsed .column {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+
+        .mobile-center {
+          display: table !important;
+          float: none;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .mobile-left {
+          float: none;
+          margin: 0 !important;
+        }
+        .mobile-text-center {text-align: center !important;}
+        .mobile-text-left   {text-align: left !important;}
+        .mobile-text-right  {text-align: right !important;}
+
+        .show-on-mobile {
+          display: table !important;
+          overflow: visible !important;
+          line-height: inherit !important;
+        }
+
+        .hide-on-mobile {
+          display: none !important;
+          width: 0;
+          overflow: hidden;
+        }
+
+        .mobile-full-width {
+          display: table;
+          width: 100% !important;
+        }
+
+        .mobile-first {display: table-header-group !important;}
+        .mobile-intermediate {display: table-row !important;}
+        .mobile-last {display: table-footer-group !important;}
+
+        .mobile-first th,
+        .mobile-intermediate th,
+        .mobile-last th {
+          padding-left: 30px !important;
+          padding-right: 30px !important;
+        }
+
+        .menu[align="center"],
+        .menu.mobile-center {
+          width: auto !important;
+        }
+        .menu-item {
+          width: auto !important;
+          display: inline-block !important;
+          padding: 0 10px 0 !important;
+        }
+        .menu.mobile-vertical .menu-item {
+          display: block !important;
+          padding: 0 0 15px 0 !important;
+        }
+
+        .hamburger-menu,
+        .accordion-content {
+          max-height: 0;
+          overflow: hidden;
+          position: relative;
+          -ms-transition: max-height .25s linear;
+          -webkit-transition: max-height .25s linear;
+          transition: max-height .25s linear;
+        }
+        .menu-trigger img {
+          display: block;
+          margin: 0 auto !important;
+          float: none !important;
+          max-height: none !important;
+        }
+        .menu-trigger:hover + .hamburger-menu,
+        .hamburger-menu:hover {max-height: 300px;}
+        .accordion-item:hover .accordion-content {max-height: 999px;}
+
+        u ~ div .wrapper .menu-trigger img {display: none;}
+        u ~ div .wrapper .hamburger-menu,
+        u ~ div .wrapper .accordion-content {max-height: none;}
+        u ~ div .wrapper .menu .menu-item {display: inline-block !important; padding: 0 10px !important;}
+        u ~ div .wrapper .menu.mobile-vertical .menu-item {display: block !important;}
+
+        .h1 {font-size: 42px !important;}
+        .h2 {font-size: 28px !important;}
+        .h3 {font-size: 16px !important;}
+
+        .spacer, .divider th        {height: 30px; line-height: 100% !important;}
+        .mobile-padding-top         {padding-top: 30px !important;}
+        .mobile-padding-top-mini    {padding-top: 10px !important;}
+        .mobile-padding-bottom      {padding-bottom: 30px !important;}
+        .mobile-padding-bottom-mini {padding-bottom: 10px !important;}
+        .mobile-margin-top          {margin-top: 30px !important;}
+        .mobile-margin-top-mini     {margin-top: 10px !important;}
+        .mobile-margin-bottom       {margin-bottom: 30px !important;}
+        .mobile-margin-bottom-mini  {margin-bottom: 10px !important;}
+        .no-border-on-mobile        {border: none !important;}
+
+        .overlay-bg {
+           background: #232323;
+           background: url('../../../images/hero/overlay-dark.png');
+           background: rgba(0,0,0,0.4);
+        }
+      }
+    </style>
+  </head>
+  <body style="box-sizing: border-box; margin: 0; padding: 0; width: 100%;">
+
+    <table class="wrapper" align="center" bgcolor="#EEEEEE" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td style="padding: 30px 0;">
+
+        <table class="row" align="center" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="spacer" height="80" style="line-height: 80px;">&nbsp;</td>
+          </tr>
+          <tr>
+            <th class="column has-columns" width="640" style="padding-left: 30px; padding-right: 30px;">
+
+              <div style="color: #232323; font-size: 28px;"><a href="https://www.lids.com/" target="_blank"><img src="https://promotional-email.netlify.app/images/lids-logo.jpg" alt=""></a></div>
+
+              <div style="color: #232323; font-size: 28px;"><a href="https://www.lids.com/nfl-division-champions-merchandise/o-8027+c-8911666518+z-866-1937706282?ab={wt-static_graphic}{pt-olp}{al-aspot}{ct-nfl_division}{aid-120919}" target="_blank"><img src="https://promotional-email.netlify.app/images/playoff-merch.jpg" alt=""></a></div>
+
+              <div class="spacer" style="line-height: 80px;">&nbsp;</div>
+
+              <table class="row" cellpadding="0" cellspacing="0">
+                <tr>
+                  <th class="column mobile-padding-bottom" width="310" style="padding-right: 10px; font-weight: 400; text-align: left;">
+                    <div style="margin-bottom: 20px;">
+                      <a href="https://www.lids.com/nfl-san-francisco-49ers/san-francisco-49ers-nfl-pro-line-by-fanatics-branded-2019-nfc-west-division-champions-cover-two-t-shirt-scarlet/o-1383+t-69262618+p-14744086057+z-9-2172296445?_ref=p-CLP:m-GRID:i-r0c0:po-0" target="_blank">
+                        <img src="https://promotional-email.netlify.app/images/49ers-1.jpg" alt="Product 1" width="310" style="border: 0; width: 100%; max-width: 310px;">
+                      </a>
+                    </div>
+                    <a href="http://example.com" style="color: #232323; font-size: 16px; font-weight: 700; text-decoration: none;">San Francisco 49ers NFL Pro Line by Fanatics Branded 2019 NFC West Division Champions Cover Two T-Shirt – Scarlet</a>
+                    <div style="color: #666666; font-size: 12px;">$27.99</div>
+                  </th>
+                  <th class="column" width="310" style="padding-left: 10px; font-weight: 400; text-align: left;">
+                    <div style="margin-bottom: 20px;">
+                      <a href="https://www.lids.com/nfl-green-bay-packers/green-bay-packers-nfl-pro-line-by-fanatics-branded-2019-nfc-north-division-champions-cover-two-t-shirt-green/o-2461+t-69376876+p-8129620538+z-8-1157012646?_ref=p-CLP:m-GRID:i-r0c2:po-2" target="_blank">
+                        <img src="https://promotional-email.netlify.app/images/packers-1.jpg" alt="Product 2" width="310" style="border: 0; width: 100%; max-width: 310px;">
+                      </a>
+                    </div>
+                    <a href="http://example.com" style="color: #232323; font-size: 16px; font-weight: 700; text-decoration: none;">Green Bay Packers NFL Pro Line by Fanatics Branded 2019 NFC North Division Champions Cover Two T-Shirt - Green</a>
+                    <div style="color: #666666; font-size: 12px;">$27.99</div>
+                  </th>
+                </tr>
+              </table>
+
+              <div class="spacer" style="line-height: 30px;">&nbsp;</div>
+
+              <table class="row" cellpadding="0" cellspacing="0">
+                <tr>
+                  <th class="column mobile-padding-bottom" width="310" style="padding-right: 10px; font-weight: 400; text-align: left;">
+                    <div style="margin-bottom: 20px;">
+                      <a href="https://www.lids.com/nfl-baltimore-ravens/baltimore-ravens-nfl-pro-line-by-fanatics-branded-2019-afc-north-division-champions-cover-two-t-shirt-black/o-2427+t-03159122+p-81961790015+z-9-1819911544?_ref=p-CLP:m-GRID:i-r2c0:po-6" target="_blank">
+                        <img src="https://promotional-email.netlify.app/images/ravens-1.jpg" alt="Product 3" width="310" style="border: 0; width: 100%; max-width: 310px;">
+                      </a>
+                    </div>
+                    <a href="http://example.com" style="color: #232323; font-size: 16px; font-weight: 700; text-decoration: none;">Baltimore Ravens NFL Pro Line by Fanatics Branded 2019 AFC North Division Champions Cover Two T-Shirt - Black</a>
+                    <div style="color: #666666; font-size: 12px;">$27.99</div>
+                  </th>
+                  <th class="column" width="310" style="padding-left: 10px; font-weight: 400; text-align: left;">
+                    <div style="margin-bottom: 20px;">
+                      <a href="https://www.lids.com/nfl-houston-texans/houston-texans-nfl-pro-line-by-fanatics-branded-2019-afc-south-division-champions-cover-two-t-shirt-navy/o-4672+t-81269211+p-4730282659+z-8-1940101004?_ref=p-CLP:m-GRID:i-r2c2:po-8" target="_blank">
+                        <img src="https://promotional-email.netlify.app/images/texans-1.jpg" alt="Product 4" width="310" style="border: 0; width: 100%; max-width: 310px;">
+                      </a>
+                    </div>
+                    <a href="http://example.com" style="color: #232323; font-size: 16px; font-weight: 700; text-decoration: none;">Houston Texans NFL Pro Line by Fanatics Branded 2019 AFC South Division Champions Cover Two T-Shirt - Navy</a>
+                    <div style="color: #666666; font-size: 12px;">$27.99</div>
+                  </th>
+                </tr>
+              </table>
+
+            </th>
+          </tr>
+          <tr>
+            <td class="spacer" height="80" style="line-height: 80px;">&nbsp;</td>
+          </tr>
+        </table>
+
+        <table class="row" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <th class="column" width="640" bgcolor="#2F7ABD" style="padding: 30px;">
+              <table class="row" cellpadding="0" cellspacing="0">
+                <tr>
+                  <th class="column" width="580" style="padding: 30px; border: 1px solid #FFFFFF; color: #FFFFFF;">
+                    <div style="font-size: 16px; font-weight: 400;">ON U.S. ORDERS OVER $39<br>ENJOY</div>
+                    <div style="font-size: 80px; line-height: 100%; word-wrap: break-word;"><span style="font-size: 0.6em; vertical-align: text-top; mso-text-raise: 20px;"></span>FREE SHIPPING</div>
+                    <div class="spacer" style="line-height: 15px;">&nbsp;</div>
+                    <div style="font-size: 20px; letter-spacing: 2px; line-height: 100%;">PROMO CODE: DIVISION20</div>
+                    <div class="spacer" style="line-height: 30px;">&nbsp;</div>
+                    <table align="center" bgcolor="#232323" cellpadding="0" cellspacing="0" style="margin: 0 auto;">
+                      <tr>
+                        <th>
+                          <a href="https://www.lids.com/nfl-division-champions-merchandise/o-8027+c-8911666518+z-866-1937706282?ab={wt-static_graphic}{pt-olp}{al-aspot}{ct-nfl_division}{aid-120919}" target="_blank" style="border: 0 solid #232323; color: #FFFFFF; display: inline-block; font-size: 14px; padding: 13px 40px 13px 40px; text-decoration: none;">SHOP NOW</a>
+                        </th>
+                      </tr>
+                    </table>
+                    <div class="spacer" style="line-height: 15px; height: 15px;">&nbsp;</div>
+                  </th>
+                </tr>
+              </table>
+            </th>
+          </tr>
+        </table>
+
+        <table class="row" align="center" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="spacer" height="80" style="line-height: 80px;">&nbsp;</td>
+          </tr>
+          <tr>
+            <th class="column" width="640" style="padding-left: 30px; padding-right: 30px; color: #666666; font-weight: 400; line-height: 100%;">
+              <center style="margin-bottom: 30px;">
+                <a href="https://www.lids.com/" target="_blank">
+                  <img src="https://promotional-email.netlify.app/images/lids-logo.jpg" width="130" alt="Footer Logo" style="border: 0; display: inline-block; width: 100%; max-width: 130px;">
+                </a>
+              </center>
+              <div style="margin-bottom: 5px;">Please do not respond to this email address, this mailbox is not attended. You are receiving this email because you have opted in to receive communication from us.</div>
+              <div style="margin-bottom: 5px;">Email Created By: John Smith</div>
+              <div style="margin-bottom: 20px;"><a href="#" style="color: #888888; text-decoration: none;">Terms &amp; Conditions</a> | <a href="#" style="color: #888888; text-decoration: none;">Unsubscribe</a></div>
+              <table align="center" cellpadding="10" cellspacing="0" style="margin: 0 auto;">
+                <tr>
+                  <td>
+                    <a href="https://www.facebook.com/Lids/" target="_blank" style="text-decoration: none;">
+                      <img src="https://promotional-email.netlify.app/images/facebook-dark.png" width="24" alt="Facebook" style="border: 0; width: 100%; max-width: 24px;">
+                    </a>
+                  </td>
+                  <td>
+                    <a href="https://twitter.com/lids?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" style="text-decoration: none;">
+                      <img src="https://promotional-email.netlify.app/images/twitter-dark.png" width="24" alt="Twitter" style="border: 0; width: 100%; max-width: 24px;">
+                    </a>
+                  </td>
+                  <td>
+                    <a href="https://www.instagram.com/lids/?hl=en" target="_blank" style="text-decoration: none;">
+                      <img src="https://promotional-email.netlify.app/images/instagram-dark.png" width="24" alt="Instagram" style="border: 0; width: 100%; max-width: 24px;">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </th>
+          </tr>
+          <tr>
+            <td class="spacer" height="40" style="line-height: 40px;">&nbsp;</td>
+          </tr>
+        </table>
+
+        </td>
+      </tr>
+    </table>
+
+  </body>
+</html>
